@@ -426,7 +426,7 @@ align-items: center;
 /* портфолио */
 .product{
     position: relative;
-    
+    overflow: hidden; 
 }
 
 .product:hover .produkt-overlay{
@@ -441,6 +441,7 @@ align-items: center;
     background-color: var(--primary-bg-color);
     position: absolute;
     opacity: 0; 
+    
 }
 
 
